@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+.color1 {color: #55819e;}
+.color2 {color: #3f768b;}
+.color3 {color: #469484;}
+.color4 {color: #92c2bd;}
+.color5 {color: #f3f6ed;}
+
+
+.color1 {color: #000012;}
+.color2 {color: #01234d;}
+.color3 {color: #264893;}
+.color4 {color: #5d6fe2;}
+.color5 {color: #a498ff;}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #5d6fe2;
+}
+body{
+    /*background-image: linear-gradient(#01234d,#264893);*/
+    background-color: #5d6fe2;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;font-size: 20px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main{
+    margin: 0 auto;
+    /*background-color: #a498ff;*/
+    background-image: linear-gradient(#1b4091 ,#1b4091 ,#5d6fe2 );
+    width: 80%;
+    margin-top: 3%;
+    border-radius: 20px;
+    margin-bottom: 3%;
+}
+
+.p2{
+    width: 130px;
+}
+
+header{
+    height: 70px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.insta{
+    width: 30px;
+}
+
+.menu{
+    width: 20%;
+    float: left;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 5px;
+    gap: 5px;
+    padding: 10px;
+    padding-left: 30px;
+
+
+}
+
+.pmenu{
+    align-self: center;
+    margin-bottom: 5px;
+}
+.conteudo{
+    width: 80%;
+
+    overflow: auto;
+    font-size: px;
+    float: left;
+    padding: 10px;
+}
+.content{
+    display: flex;
+    height: 700px;
+}
+
+.rodape{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.curricolo{
+    width: 95%;
+}
+
+.travis{
+    height: 70%;
+
+}
+
+.p1{
+    font-style: italic;
+    font-size: 15px;
+}
+
+.p3{
+    font-style: italic;
+    font-size: 15px;
+
+}
+
+.img1{
+    width: 60%;
+}
+
+.img2{
+    width: 33%;
+}
+
+.img3{
+    width: 33%;
+}
+.img4{
+    width: 12%;
+}
+.split{
+    display: flex;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 10px;
+}
+
+.split2{
+    display: flex;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 25px;
+    
+}
+
+.psplit{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.eu{
+    width: 40%;
+}

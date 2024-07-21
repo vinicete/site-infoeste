@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Document</title>
+    <style>
+
+       
+        .menu {
+    
+    width: 100%;
+    margin-bottom: 4%;
+    position: relative;
+    padding-left: 2%;
+    
+    
+}
+
+    .menu > * {
+        display: inline-block;
+    }
+
+    .botoes {
+        padding-left: 18%;
+    }
+
+
+
+        .relative {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .caixa-flex {
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(255, 255, 255, 0.089);
+            margin: 0 2% 1% 2%;
+            border-radius: 6px;
+            padding: 1%;
+        }
+
+        .titulo-da-caixa-flex {
+
+            font-size: 1.8rem;
+            text-transform: lowercase;
+            font-weight: 900;
+            color: white;
+
+        }
+
+        ul {
+            list-style-type: circle;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        li {
+            padding: 0.5% 0 1% 0;
+        }
+
+        li>a {
+            color: white;
+            font-size: 1.2rem;
+
+        }
+
+        li>a:hover {
+            font-weight: 900;
+            font-size: 1.4rem;
+        }
+
+
+        figure {
+            display: flex;
+            align-items: center;
+        }
+
+        img {
+            border-radius: 6px;
+            opacity: 0.9;
+        }
+
+        figcaption {
+            text-align: justify;
+            margin-left: 2%;
+            line-height: 170%;
+            color: rgba(255, 255, 255, 0.877);
+
+        }
+
+
+        table {
+
+            margin: 0 auto;
+            width: 40%;
+        }
+
+        td {
+            text-align: center;
+            padding: 3%;
+            color: white;
+            font-weight: 300;
+
+
+        }
+
+        thead>tr>td {
+            font-weight: 500;
+            font-size: 1.4rem;
+            
+        }
+
+        table,
+        tr,
+        td {
+            border: solid 2px rgba(240, 238, 238, 0.26);
+            border-collapse: collapse;
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        
+    </style>
+</head>
+
+<body class="bg">
+
+
+    
+
+        <div class="menu">
+       
+            <div class="infologo">
+                <a href="index.html"><img src="images/infoeste-logo.png" alt="" style="width:30%; padding-left:10%;"></a>
+            </div>
+            <div class="botoes">
+                <a href="sobre.html">Sobre o evento</a>
+                <a href="cadastro_festalinux_cursopalestra/formulario.html">Inscrever-se</a>
+                <a href="portifolios.html">Portifólios</a>
+            
+            
+        </div>
+    </div>
+
+    <div class="relative">
+
+        <div class="caixa-flex">
+            <div class="titulo-da-caixa-flex">Índice da página</div>
+            <div>
+                <ul>
+                    <li><a href="#sobre-a-infoeste">Sobre a infoeste</a></li>
+                    <li><a href="#precos">Preços</a></li>
+                    <li><a href="#contato" style="padding-bottom: 0;">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="caixa-flex">
+            <div class="titulo-da-caixa-flex" id="sobre-a-infoeste">Sobre a Infoeste</div>
+            <figure>
+                <img src="images/edicao-anterior-infoeste.jpg" alt="" srcset="" style="width: 40%;">
+                <figcaption>A Faculdade de Informática de Presidente Prudente (FIPP), da Universidade do Oeste Paulista
+                    (UNOESTE), realiza anualmente, a Semana de Computação e Informática da FIPP/Unoeste - INFOESTE.
+                    <br>
+                    O evento, que é aberto a toda a comunidade regional e de outros centros, procura congregar
+                    estudantes de graduação e pós-graduação, professores, pesquisadores, profissionais e demais
+                    interessados em informática, objetivando a difusão da computação e informática e do seu bom uso,
+                    trazendo para o debate aberto temas importantes que indicam as tendências tecnológicas e do mercado
+                    atual, além da discussão de práticas pedagógicas no ensino superior, buscando atingir com mais
+                    ênfase os alunos dos cursos da FIPP/Unoeste.
+                </figcaption>
+            </figure>
+
+        </div>
+
+        <div class="caixa-flex">
+            <div class="titulo-da-caixa-flex" id="precos">Preços</div>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Categoria de participante</td>
+                        <td>Preço</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alunos de Graduação - FIPP</td>
+                        <td>R$ 20,00</td>
+
+                    </tr>
+                    <tr>
+                        <td>Egressos da FIPP</td>
+                        <td>R$ 20,00</td>
+
+                    </tr>
+                    <tr>
+                        <td>Professores e funcionários da FIPP</td>
+                        <td>R$ 50,00</td>
+                    </tr>
+                    <tr>
+                        <td>Demais participantes</td>
+                        <td>R$ 30,00</td>
+                    </tr>
+
+
+
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="caixa-flex">
+            <div class="titulo-da-caixa-flex" id="contato">Contato</div>
+            <figure>
+                <img src="images/logo-unoeste-e-fipp.png" alt="" usemap="#contato-unoeste-fipp"
+                    style="width: 40%; margin: 0 auto;">
+            </figure>
+        </div>
+
+
+        <map name="contato-unoeste-fipp">
+            <area shape="rect" coords="0, 0, 268, 346" href="https://www.unoeste.br/contato" alt="">
+            <area shape="rect" coords="280, 0, 500, 346" href="https://www.unoeste.br/fipp/Contato" alt="">
+        </map>
+
+
+
+
+
+
+    </div>
+
+
+
+
+</body>
+
+<footer>
+    <div class="rodape flexrodape">
+        <img class="unologo" src="images/logo branca.png" alt="unoeste">
+        <img class="unologofipp" src="images/fipp branca.png" alt="fipp">
+    </div>
+</footer>
+
+</html>

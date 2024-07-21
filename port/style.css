@@ -1,0 +1,82 @@
+body{
+    background-color: #9c8b8b;
+}
+
+
+.Sobre{
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.image img{
+    width: 390px;
+    height: auto;
+    box-shadow: 10px 10px 10px #424141;
+}
+
+.Sobre-mim h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+.Sobre-mim h3{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 30px;
+    font-weight: normal;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    color: rgb(105, 28, 177);
+
+}
+
+.Sobre-mim p{
+    margin-top: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.menu-topo li{
+    display: inline;
+    padding-left: 50px; padding-right: 50px;
+    border: 3px;
+    font-weight: bolder;
+    
+}
+
+a.topo1:link{
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
+}
+a.topo1:visited{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+li:hover{
+    text-decoration: none;
+    font-size: 23px;
+    background-image: linear-gradient(to right,#cac6a4,#aa9cc5,#d4c0c0);
+}
+
+.conteudo a{
+    text-align: center;
+}
+  
+.imagem {
+    display: table-cell;
+    float: left;
+}
+  
+.texto {
+    display: table-cell;
+    float: left;
+    width: 300px;
+    margin-left: 20px;
+}

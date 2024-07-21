@@ -1,0 +1,97 @@
+.relative {
+    position: relative;
+    width: 96%;
+    margin: 0 auto;
+}
+
+
+
+.pagina {
+    display: flex;
+    flex-direction: column;
+    animation-name: animacao-ao-iniciar;
+    animation-duration: 4s;
+}
+
+
+.menu {
+    background-color: rgb(255, 0, 21);
+    width: 100%;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botoes > div {
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+
+.eventos {
+    background-color: deeppink;
+
+}
+
+.titulo-eventos {
+    margin: 20px auto 10px 120px;
+    font-size: 2rem;    
+}
+
+.caixa-eventos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+
+    
+}
+
+.imagem-evento {
+    position: relative;
+    flex-direction: column;
+    background-color: yellow;
+    width: 40%;
+    height: 40vh;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    
+    
+}
+
+.imagem-evento:hover {
+    transform: scale(1.05);
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition-duration: 0.3s;
+
+}
+
+.titulo-evento {
+    background-color: black;
+    position: absolute;
+    
+    
+
+}
+
+.texto {
+    position: absolute;
+    z-index: -1;
+    opacity:1;
+    width:100%;
+    background-color: darksalmon;
+
+}
+
+.imagem-evento:hover {
+    z-index:0;
+}
+
+
+.rodape {
+    width: 100%;
+    background-color: greenyellow;
+
+}

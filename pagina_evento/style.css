@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #52d1dd;
+    background-image: linear-gradient(-45deg, #5317b4d7 0%, #5317b4d8 25%, #5317b479 51%, #52d1dd 100%);
+    background-size: 300% 300%;
+    animation: AnimateBG 10s ease infinite;
+
+    
+}
+
+@keyframes AnimateBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.relative {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.pagina {
+    display: flex;
+    flex-direction: column;
+    animation-name: animacao-ao-iniciar;
+    animation-duration: 4s;
+}
+
+
+.menu {
+    
+    width: 100%;
+    margin-bottom: 4%;
+    position: relative;
+}
+
+
+@keyframes animacao-menu {
+    0% {
+       top: -80px;
+    }
+
+    100% {
+        top: 0;
+    }
+    
+    
+}
+
+.menu {
+    animation-name: animacao-menu;
+    animation-duration: 1s;
+}
+
+
+.botoes {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+   
+    
+}
+
+
+
+
+.botoes > a {
+    padding: 20px;
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 500;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.5px;
+    text-transform: lowercase;
+
+    
+    
+}
+
+.botoes > a:hover {
+    transform: scale(1.05);
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition-duration: 0.3s;
+
+    
+    background-color: #FF5A5F;
+
+    border-radius: 6px;
+}
+
+
+.eventos {
+    
+    
+
+}
+
+.titulo-eventos {
+    margin: 20px auto 10px 120px;
+    font-size: 2rem;    
+}
+
+.caixa-eventos {
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 6px;
+
+    
+}
+
+
+.imagem-evento {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    background-color: rgba(255, 255, 255, 0.103);
+    border-radius: 6px;
+    width: 30%;
+    height: 50vh;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    
+    
+}
+
+
+.imagem-evento:hover {
+    transform: scale(1.05);
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition-duration: 0.3s;
+    
+
+}
+
+.titulo-do-evento {
+    position: absolute;
+    top: 2%;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: lowercase;
+    margin-bottom: 0;
+
+}
+
+
+.descricao-do-evento {
+    position: absolute;
+   opacity: 0;
+    top: 4%;
+    font-size: 1.4rem;
+    color: white;
+   
+   
+}
+
+.imagem-evento:hover > .descricao-do-evento {
+    opacity: 1;
+    z-index:-1;
+  
+}
+
+.imagem-evento:hover > .titulo-do-evento {
+    opacity: 0;
+    
+}
+
+@keyframes animacao-imagens {
+    0% {transform: scale(0.1);}
+    100%{transform: scale(1.0);}
+    
+}
+
+.caixa-eventos {
+    animation-name: animacao-imagens;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+
+    
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.data {
+    
+    position: absolute;
+    width:100%;
+    top: 4%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+ 
+    
+
+} 
+
+.dia {
+    display: inline;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.hora {
+    display: inline;
+    font-size: 1.4rem;
+    margin-left: 2%;
+    font-weight: 600;
+}
+
+
+
+.rodape {
+    width: 100%;
+    
+
+}
